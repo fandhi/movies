@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,3 +8,16 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 }
+// export class AppComponent implements OnInit {
+//   public moviesStarWars = [];
+
+//   constructor(private _MoviesService: MoviesService) {}
+//   ngOnInit() {
+//     this._MoviesService.getMovies()
+//       .subscribe(arg => this.moviesStarWars = arg);
+//       console.log(this.moviesStarWars);
+    
+//   }
+// }
+
+
